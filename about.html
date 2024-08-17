@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>demo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+<!---------------------- google font info  ------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://static.tumblr.com/tpbx7ye/OYupblc9f/cloudythms.css" rel="stylesheet">
+
+<!----------------------- Font Awesome Script -------------------->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    </head>
+<body>
+<div id="container">
+
+    <div id="side-bar">
+        <a href="index.html"><div class="icon-image"> <img src="images/LOGOITSELF.png"></div></a>
+        <a href="/practice/portfolio.html" class="side-bar-button">portfolio</a>
+        <a href="/practice/interest.html" class="side-bar-button">interests</a>
+    </div>
+
+    <div id="main-area">
+        <div class="entries">
+            <div class="text-info">
+                <img src="images/tqowop_icon_big_square_trans.png">
+            <p>    
+            <h2>about tqowop <br></h2>
+            tqowop is the artist tag I go by. <br>
+            tqowop is simply a face flipping you off (the T). <br>
+            some have said it looks like monkey while other say bunny - <br>
+            <i>you can choose.</i><br><br><br>
+            <h2>自己紹介<br></h2>
+            tqowopはただのアーティストの名前ですが顔にとして変装しています。<br>
+            tqowopの「Ｔ」は英語に「くたばれ」の意味が持っています。<br><br>
+    
+            <h2>アーティストについて<br></h2>
+            ダンと呼んでね<br>
+            ｘジェンダーです<br>
+            母語が英語です<br>
+            大学院生です<br>
+    
+            </p>
+            </div>
+        </div> <!---end of entrties -->
+
+
+    </div> <!----- main area end -->
+   <!---right side bar start --> 
+    <div id="right-side-bar">
+        <div class="side-info">
+                <i class="far fa-user"></i> they/them/theirs <br>
+                <i class="far fa-star"></i> istj / isfp<br>
+                <i class="far fa-comments"></i> ENG ; 日本語<Br>
+                <i class="fas fa-flask"></i> phd student<br>
+        </div>
+    </div> <!----right side bar end -->
+</div> <!-----container-->
+
+
+ <!-- how to make a new entry:  -->
+        <!-- <div class="entries">
+            n ur mom<br>
+            <div class="entry-image"><img src="images/LOGOITSELF.png"> </div>
+        </div> -->
+
+<!-- how to make a new card aka post image with text  -->
+                    <!-- <div class="card" tabindex="1">
+                        <div class="card-image">
+                            <img src="images/IMG_0927aa.jpg"> 
+                        </div>
+                    <p class="card-comment"> text goes here </p>      
+                    </div> -->
+
+
+
+<!-------------------------scripts--------------------------------->
+<script type="text/javascript" >
+
+    $(document).ready(function(){
+        
+        /* DEFAULT STATE */
+        // default open: use "slideDown" and "addClass"
+        // default closed: use "slideUp" and "removeClass"
+
+        $(".a").slideUp();
+        $(".category-title").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a").slideDown();
+            $(".category-title").addClass("closed");
+        });
+        
+        $(".category-title").click(function(){
+            $(this).siblings(".a").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+// sub group 
+
+$(".a2").slideUp();
+        $(".category-title2").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title2").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a2").slideDown();
+            $(".category-title2").addClass("closed");
+        });
+        
+        $(".category-title2").click(function(){
+            $(this).siblings(".a2").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+
+
+
+        // $(".a").slideDown();
+        // $(".category-title").addClass("open");
+        
+        // $("#openall").click(function(){
+        //     $(".a").slideDown();
+        //     $(".category-title").addClass("open");
+        // });
+        
+        // $("#closeall").click(function(){
+        //     $(".a").slideUp();
+        //     $(".category-title").removeClass("open");
+        // });
+        
+        // $(".category-title").click(function(){
+        //     $(this).siblings(".a").slideToggle();
+        //     $(this).toggleClass("open");
+        // });
+        
+    });
+</script>
+
+
+
+        
+
+    
+</div>
+
+</body>
+</html>

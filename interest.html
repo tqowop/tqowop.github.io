@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>demo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://static.tumblr.com/tpbx7ye/OYupblc9f/cloudythms.css" rel="stylesheet">
+
+
+    </head>
+<body>
+<div id="container">
+
+    <div id="side-bar">
+        <a href="index.html"><div class="icon-image"> <img src="images/LOGOITSELF.png"></div></a>
+        <a href="/practice/about.html" class="side-bar-button">back</a>
+        <a href="/practice/portfolio.html" class="side-bar-button">portfolio</a>
+    </div>
+
+    <div id="main-area">
+
+        <div class="entries">
+        
+        <h2>interests</h2>
+        <!------------- start of category 1  ------------->
+        <div class="category">
+            <div class="category-title">Arts & Craft</div>
+            <div class="a">
+                collage making <br>
+                crocheting =<br>
+                doodling (traditional/digital)<br>
+                graphic design<br>
+                journaling<br>
+                penpal/letter designing<br>
+                photography<br>
+                sewing   <br>
+                <i><a href="/practice/portfolio.html">see some of my work!</a></i>
+                </div>
+            
+        </div>
+
+        <div class="category">
+            <div class="category-title">Anime & Manga</div>
+            <div class="a">
+                <div class="category2">
+                <div class="category-title2"> Anime Favs </div>
+                    <div class="a2">
+                        asobi asobe<br>
+                        danshi kokousei no nichijou<br>
+                        hourou musuko<br>
+                        mob psycho 100<br>
+                        neon gensis evangelion<br>
+                        osomatsu san<br>
+                        tsuritama<br>
+                        yowamushi pedal<br>
+                        
+                    </div>
+                </div>
+
+                <div class="category2">
+                <div class="category-title2">  Manga Favs</div>
+                    <div class="a2">
+                        aku no hana<br>
+                        ao haru ride<br>
+                        haikyuu!!<br>
+                        subarashii seikai<br>
+                        umibe no onnanoko <br>
+                    </div>
+                </div>
+
+                <div class="category2">
+                <div class="category-title2">  Video Games Favs </div>
+                    <div class="a2">
+                        animal crossing (ww/cf/nl/nh)<br>
+                        dance dance revolution (sn2/aa/aa20)<br>
+                        katamari<br>
+                        mario kart<br>
+                        zelda ocarina of time <br>
+                    </div>
+                </div> 
+                <i><a href="https://myanimelist.net/profile/g0shiki">see what I've watched/read! </a></i>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">Food & Music</div>
+            <div class="a">
+                <div class="category2">
+                <div class="category-title2"> Food Favs </div>
+                    <div class="a2">
+                        bread<br>
+                        cereal<br>
+                        curry (basically all tbh)<br>
+                        croissants<br>
+                        croquette<br>
+                        custard bread /melon pan w custard<br>
+                        french fries in frosty<br>
+                        mash potatoes<br>
+                        more bead (bascially all tbh)<br>
+                        milk tea ( black & thai)<br>
+                        sandwiches<br>
+                        soup<br>
+                        vanilla ice cream and black seseame ice cream<br>
+                        water <br>
+                        & last but not least, bread
+                    </div>
+                </div>
+
+                <div class="category2">
+                <div class="category-title2"> Music Favs</div>
+                    <div class="a2">
+                        a lot like birds<br>
+                        girlfriends<br>
+                        hrvrd<br>
+                        kinokoteikoku<br>
+                        pulses.<br>
+                        soutaiseiriron<br>
+                        toe<br>
+                        ttng <br>
+                    <i><a href="https://open.spotify.com/user/3u9rewt5xdh0asvl5ynfp8yw4?si=655349f0dd934bf6"> view my spotify</a> or   <a href="https://www.last.fm/user/tqowop"> my last.fm</a></i> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <!------------- end of category ------------->
+
+        </div> <!---end of entrties -->
+
+
+    </div> <!----- main area-->
+</div> <!-----container-->
+
+
+ <!-- how to make a new entry:  -->
+        <!-- <div class="entries">
+            n ur mom<br>
+            <div class="entry-image"><img src="images/LOGOITSELF.png"> </div>
+        </div> -->
+
+<!-- how to make a new card aka post image with text  -->
+                    <!-- <div class="card" tabindex="1">
+                        <div class="card-image">
+                            <img src="images/IMG_0927aa.jpg"> 
+                        </div>
+                    <p class="card-comment"> text goes here </p>      
+                    </div> -->
+
+
+
+<!-------------------------scripts--------------------------------->
+<script type="text/javascript" >
+
+    $(document).ready(function(){
+        
+        /* DEFAULT STATE */
+        // default open: use "slideDown" and "addClass"
+        // default closed: use "slideUp" and "removeClass"
+
+        $(".a").slideUp();
+        $(".category-title").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a").slideDown();
+            $(".category-title").addClass("closed");
+        });
+        
+        $(".category-title").click(function(){
+            $(this).siblings(".a").slideToggle();
+            $(this).toggleClass("closed");
+        });
+ 
+        // sub group 
+
+        $(".a2").slideUp();
+        $(".category-title2").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title2").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a2").slideDown();
+            $(".category-title2").addClass("closed");
+        });
+        
+        $(".category-title2").click(function(){
+            $(this).siblings(".a2").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+
+
+
+        // $(".a").slideDown();
+        // $(".category-title").addClass("open");
+        
+        // $("#openall").click(function(){
+        //     $(".a").slideDown();
+        //     $(".category-title").addClass("open");
+        // });
+        
+        // $("#closeall").click(function(){
+        //     $(".a").slideUp();
+        //     $(".category-title").removeClass("open");
+        // });
+        
+        // $(".category-title").click(function(){
+        //     $(this).siblings(".a").slideToggle();
+        //     $(this).toggleClass("open");
+        // });
+        
+    });
+</script>
+
+
+
+        
+
+    
+</div>
+
+</body>
+</html>

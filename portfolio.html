@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>demo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://static.tumblr.com/tpbx7ye/OYupblc9f/cloudythms.css" rel="stylesheet">
+
+
+    </head>
+<body>
+<div id="container">
+
+    <div id="side-bar">
+        <a href="index.html"><div class="icon-image"> <img src="images/LOGOITSELF.png"></div></a>
+        <a href="/practice/about.html" class="side-bar-button">about</a>
+        <a href="/practice/interest.html" class="side-bar-button">interests</a>
+    </div>
+
+    <div id="main-area">
+        <div class="entries">
+            <h2>portfolio menu<br></h2>
+            <div class="align-buttons">
+                <a href="/practice/photos.html" class="entry-button">photography</a>
+                <a href="/practice/crafts.html" class="entry-button">crafts</a></div>
+                
+            </div>
+        </div> <!---end of entrties -->
+
+
+    </div> <!----- main area-->
+</div> <!-----container-->
+
+
+ <!-- how to make a new entry:  -->
+        <!-- <div class="entries">
+            n ur mom<br>
+            <div class="entry-image"><img src="images/LOGOITSELF.png"> </div>
+        </div> -->
+
+<!-- how to make a new card aka post image with text  -->
+                    <!-- <div class="card" tabindex="1">
+                        <div class="card-image">
+                            <img src="images/IMG_0927aa.jpg"> 
+                        </div>
+                    <p class="card-comment"> text goes here </p>      
+                    </div> -->
+
+
+
+<!-------------------------scripts--------------------------------->
+<script type="text/javascript" >
+
+    $(document).ready(function(){
+        
+        /* DEFAULT STATE */
+        // default open: use "slideDown" and "addClass"
+        // default closed: use "slideUp" and "removeClass"
+
+        $(".a").slideUp();
+        $(".category-title").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a").slideDown();
+            $(".category-title").addClass("closed");
+        });
+        
+        $(".category-title").click(function(){
+            $(this).siblings(".a").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+
+
+
+
+
+
+        // $(".a").slideDown();
+        // $(".category-title").addClass("open");
+        
+        // $("#openall").click(function(){
+        //     $(".a").slideDown();
+        //     $(".category-title").addClass("open");
+        // });
+        
+        // $("#closeall").click(function(){
+        //     $(".a").slideUp();
+        //     $(".category-title").removeClass("open");
+        // });
+        
+        // $(".category-title").click(function(){
+        //     $(this).siblings(".a").slideToggle();
+        //     $(this).toggleClass("open");
+        // });
+        
+    });
+</script>
+
+
+
+        
+
+    
+</div>
+
+</body>
+</html>

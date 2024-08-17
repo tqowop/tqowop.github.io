@@ -1,0 +1,182 @@
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/19-02-08-00-42-14-498_deco.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20170714_220121.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20191127_133601.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20191215_205507.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20191215_210411.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20200109_074404-01.jpeg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20200109_074404-01.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20200120_091455.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/20230701_101352.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20220521_110117.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20230604_111904.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20230604_112008.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20230610_130447.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20230610_144050.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d20230610_144101.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/d205gradparty20230531-1.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/dac_cardsUntitled-1.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/dho_flyer_demo2.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/dleft_2024ddr_arrows.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/dright_2024ddr_arrows.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/DSC03700.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/dScreenshot_20170310-061930.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/Screenshot_20200311-101316_Chrome.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/Screen_Shot_2022-06-12_at_10.33.39_PM-01.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/shelf2.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+
+<div class="card" tabindex="1">
+	<div class="card-image">
+		<img src="images/crafts/Untitled-1-1.jpg">
+	</div>
+<p class="card-comment"> temp comment </p>
+</div>
+

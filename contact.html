@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>demo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+<!---------------------- google font info  ------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://static.tumblr.com/tpbx7ye/OYupblc9f/cloudythms.css" rel="stylesheet">
+
+<!----------------------- Font Awesome Script -------------------->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+<!------------------------------- special brand icons -------------->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" display="none" width="0" height="0"></svg> -->
+
+
+<!------------------------ confetti stuff  -------------------->
+<script type="module">
+import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+confetti();
+const doItNow = (evt, hard) => {
+  const direction = Math.sign(lastX - evt.clientX);
+  lastX = evt.clientX;
+  const particleCount = hard ? r(122, 245) : r(2, 15);
+  confetti({
+    particleCount,
+    angle: r(90, 90 + direction * 30),
+    gravity: 0.65, 
+    spread: r(45, 80),
+    origin: {
+      x: evt.clientX / window.innerWidth,
+      y: evt.clientY / window.innerHeight
+    }
+  });
+};
+const doIt = (evt) => {
+  doItNow(evt, false);
+};
+
+const doItHard = (evt) => {
+  doItNow(evt, true);
+};
+
+let lastX = 0;
+const butt = document.querySelector(".flip-card-container");
+// butt.addEventListener("mousemove", doIt);
+butt.addEventListener("click", doItHard);
+
+function r(mi, ma) {
+  return parseInt(Math.random() * (ma - mi) + mi);
+}
+
+</script>
+
+<!--------------------------- end of scripts  -------------->
+
+    </head>
+<body>
+<div id="container">
+
+    <div id="side-bar">
+        <a href="index.html"><div class="icon-image"> <img src="images/LOGOITSELF.png"></div></a>
+        
+        <a href="/practice/portfolio.html" class="side-bar-button">portfolio</a>
+        <a href="/practice/interest.html" class="side-bar-button">interests</a>
+    </div>
+
+    <div id="main-area">
+        <div class="entries"> <!------start of entry 1 -->
+            <div class="flip-card-container">
+                
+                <div class="bijines-card-flip">
+     
+                <div class="bijines-card-front">
+                <div class="icon-bottom-menu">
+                    <!-- ----------------------------------- lists --------------------------------->
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-pencil"></i>
+                            <i class="fas fa-image"></i>
+                            <i class="fa fa-flask"></i>
+                            <i class="fa fa-paintbrush"></i>
+                            <i class="fas fa-palette"></i>
+                            <i class="fa fa-desktop"></i>
+                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fa fa-scissors"></i>
+                            <i class="fas fa-microscope"></i>
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-pencil"></i>
+                            <i class="fas fa-image"></i>
+                            <i class="fa fa-flask"></i>
+                            <i class="fa fa-paintbrush"></i>
+                            tqowop.art
+                            <i class="fas fa-palette"></i>
+                            <i class="fa fa-desktop"></i>
+                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fa fa-scissors"></i>
+                            <i class="fas fa-microscope"></i>
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-pencil"></i>
+                            <i class="fas fa-image"></i>
+                            <i class="fa fa-flask"></i>
+                            <i class="fa fa-paintbrush"></i>
+                            <i class="fas fa-palette"></i>
+                            <i class="fa fa-desktop"></i>
+                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fa fa-scissors"></i>
+                            <i class="fas fa-microscope"></i>
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-pencil"></i>
+                            <i class="fas fa-image"></i>
+                            <i class="fa fa-flask"></i>
+                            <i class="fa fa-paintbrush"></i>
+                            <i class="fas fa-palette"></i>
+                            <i class="fa fa-desktop"></i>
+                            <i class="fas fa-pen-fancy"></i>
+                            <i class="fa fa-scissors"></i>
+                            <i class="fas fa-microscope"></i>  
+                    </div>
+ 
+                    <div class="card-icons"> <img src="images/LOGOITSELF_creepy_wave.gif"></div>
+                    <figcaption>thank you for visiting </figcaption>
+                    
+
+
+                
+
+                </div> <!--front card-->
+                
+                <div class="bijines-card-back">
+                    <div class="card-icons"><img src="images/LOGOITSELF.png"></div>
+
+                    <div class="figcaptionA">tqowop - it's a face! </div> 
+                    <div class="figcaptionB"> a multidisciplinary artist :^) </div>
+
+                    <div class="icon-bottom-menu">
+                        <!-- ----------------------------------- lists --------------------------------->
+                                <i class="fa fa-camera"></i>
+                                <i class="fa fa-pencil"></i>
+                                <i class="fas fa-image"></i>
+                                <i class="fa fa-flask"></i>
+                                <i class="fa fa-paintbrush"></i>
+                                <i class="fas fa-palette"></i>
+                                <i class="fa fa-desktop"></i>
+                                <i class="fas fa-pen-fancy"></i>
+                                <i class="fa fa-scissors"></i>
+                                <i class="fas fa-microscope"></i>
+                                <i class="fa fa-camera"></i>
+                                <i class="fa fa-pencil"></i>
+                                <i class="fas fa-image"></i>
+                                <i class="fa fa-flask"></i>
+                                <i class="fa fa-paintbrush"></i>
+                                tqowop.art
+                                <i class="fas fa-palette"></i>
+                                <i class="fa fa-desktop"></i>
+                                <i class="fas fa-pen-fancy"></i>
+                                <i class="fa fa-scissors"></i>
+                                <i class="fas fa-microscope"></i>
+                                <i class="fa fa-camera"></i>
+                                <i class="fa fa-pencil"></i>
+                                <i class="fas fa-image"></i>
+                                <i class="fa fa-flask"></i>
+                                <i class="fa fa-paintbrush"></i>
+                                <i class="fas fa-palette"></i>
+                                <i class="fa fa-desktop"></i>
+                                <i class="fas fa-pen-fancy"></i>
+                                <i class="fa fa-scissors"></i>
+                                <i class="fas fa-microscope"></i>
+                                <i class="fa fa-camera"></i>
+                                <i class="fa fa-pencil"></i>
+                                <i class="fas fa-image"></i>
+                                <i class="fa fa-flask"></i>
+                                <i class="fa fa-paintbrush"></i>
+                                <i class="fas fa-palette"></i>
+                                <i class="fa fa-desktop"></i>
+                                <i class="fas fa-pen-fancy"></i>
+                                <i class="fa fa-scissors"></i>
+                                <i class="fas fa-microscope"></i>  
+                    </div>
+                    
+                    <div class="bijines-buttons-area">
+                            <a href="mailto:tqonop@gmail.com" class="bijines-buttons"><i class="far fa-paper-plane fa-3x">
+                                <title id="icon-title">MyAnimeList</title>
+                                </i></a>
+
+                            <a href="https://www.last.fm/user/tqowop" class="bijines-buttons"><i class="fab fa-lastfm fa-3x"></i></a>
+
+                            <a href="https://tqowop.tumblr.com/"class="bijines-buttons fa-3x"><i class="fab fa-tumblr"></i></a> 
+                        
+
+                            <a href="https://www.instagram.com/tqowop/"class="bijines-buttons"><i class="fab fa-instagram fa-3x"></i></a> 
+                            
+                            <a href="https://www.discordapp.com/users/338167897945800708"class="bijines-buttons"><i class="fab fa-discord fa-3x"></i></a>
+                            
+                    </div>
+
+                   
+                </div> <!----back card -->
+            
+            </div> <!---flip card -->
+
+        </div> <!---container-->
+   
+        </div> <!---end of entrties -->
+ <!-- Start of CuterCounter Code -->
+ <div class="counter-bot-info"> &#9886; vistors ٩(๑ᗒ⩊ᗕ๑)ﻭ&#9887;</div>
+ <div class="counter-bot"><img src="https://www.cutercounter.com/hits.php?id=hmexpcdna&nd=6&style=10" ></a></div> 
+<!-- End of CuterCounter Code -->
+    </div> <!----- main area end -->
+
+</div> <!-----container-->
+
+
+
+<!-------------------------scripts--------------------------------->
+<script type="text/javascript" >
+
+    $(document).ready(function(){
+        
+        /* DEFAULT STATE */
+        // default open: use "slideDown" and "addClass"
+        // default closed: use "slideUp" and "removeClass"
+
+        $(".a").slideUp();
+        $(".category-title").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a").slideDown();
+            $(".category-title").addClass("closed");
+        });
+        
+        $(".category-title").click(function(){
+            $(this).siblings(".a").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+// sub group 
+
+$(".a2").slideUp();
+        $(".category-title2").removeClass("closed");
+        
+        $("#openall").click(function(){
+            $(".a").slideUp();
+            $(".category-title2").removeClass("closed");
+        });
+        
+        $("#closeall").click(function(){
+            $(".a2").slideDown();
+            $(".category-title2").addClass("closed");
+        });
+        
+        $(".category-title2").click(function(){
+            $(this).siblings(".a2").slideToggle();
+            $(this).toggleClass("closed");
+        });
+
+
+
+
+        
+    });
+</script>
+
+
+
+
+
+        
+
+    
+</div>
+
+</body>
+</html>
