@@ -746,9 +746,9 @@ a:visited{
 
 .buttonss{
   position: absolute;
-  bottom: 7%;
-  left: 5%;
-  width: 89%;
+  top: 6%;
+  left: 6%;
+  /* width: 89%; */
   display: flex;
   /* justify-content: space-between; */
   /* border: red 2px solid; */
@@ -757,7 +757,7 @@ a:visited{
 .buttonss button{
   width: 50px;
   height: 30px;
-  border-radius: 20%;
+  border-radius: 25%;
   background-color: rgba(255,255,255,0.55);
   border: none;
 }
