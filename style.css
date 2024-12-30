@@ -727,7 +727,7 @@ a:visited{
   height: 100%;
   width: max-content;
   display: flex;
-  transition: 5s;
+  transition: 2s;
 }
 
 .list img{
